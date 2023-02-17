@@ -5,7 +5,7 @@ import {Redirect} from 'react-router-dom'
 import './index.css'
 
 class LoginForm extends Component {
-  state = {username: '', password: '', showSubmitError: false, errorMsg: ''}
+  state = {username: 'rahul', password: 'rahul@2021', showSubmitError: false, errorMsg: ''}
 
   onSubmitSuccess = jwtToken => {
     const {history} = this.props
